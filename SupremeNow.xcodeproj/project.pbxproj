@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028C438025D46F540064C372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C437F25D46F540064C372 /* AppDelegate.swift */; };
+		028C438225D46F540064C372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C438125D46F540064C372 /* SceneDelegate.swift */; };
+		028C438425D46F540064C372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C438325D46F540064C372 /* ViewController.swift */; };
+		028C438725D46F540064C372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028C438525D46F540064C372 /* Main.storyboard */; };
+		028C438A25D46F540064C372 /* SupremeNow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 028C438825D46F540064C372 /* SupremeNow.xcdatamodeld */; };
+		028C438C25D46F550064C372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028C438B25D46F550064C372 /* Assets.xcassets */; };
+		028C438F25D46F550064C372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028C438D25D46F550064C372 /* LaunchScreen.storyboard */; };
+		028C439A25D46F550064C372 /* SupremeNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C439925D46F550064C372 /* SupremeNowTests.swift */; };
+		028C43A525D46F550064C372 /* SupremeNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C43A425D46F550064C372 /* SupremeNowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028C439625D46F550064C372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028C437425D46F540064C372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028C437B25D46F540064C372;
+			remoteInfo = SupremeNow;
+		};
+		028C43A125D46F550064C372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028C437425D46F540064C372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028C437B25D46F540064C372;
+			remoteInfo = SupremeNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028C437C25D46F540064C372 /* SupremeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupremeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028C437F25D46F540064C372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		028C438125D46F540064C372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		028C438325D46F540064C372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		028C438625D46F540064C372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028C438925D46F540064C372 /* SupremeNow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SupremeNow.xcdatamodel; sourceTree = "<group>"; };
+		028C438B25D46F550064C372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028C438E25D46F550064C372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		028C439025D46F550064C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028C439525D46F550064C372 /* SupremeNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupremeNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028C439925D46F550064C372 /* SupremeNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupremeNowTests.swift; sourceTree = "<group>"; };
+		028C439B25D46F550064C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028C43A025D46F550064C372 /* SupremeNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupremeNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028C43A425D46F550064C372 /* SupremeNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupremeNowUITests.swift; sourceTree = "<group>"; };
+		028C43A625D46F550064C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028C437925D46F540064C372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028C439225D46F550064C372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028C439D25D46F550064C372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028C437325D46F540064C372 = {
+			isa = PBXGroup;
+			children = (
+				028C437E25D46F540064C372 /* SupremeNow */,
+				028C439825D46F550064C372 /* SupremeNowTests */,
+				028C43A325D46F550064C372 /* SupremeNowUITests */,
+				028C437D25D46F540064C372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028C437D25D46F540064C372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028C437C25D46F540064C372 /* SupremeNow.app */,
+				028C439525D46F550064C372 /* SupremeNowTests.xctest */,
+				028C43A025D46F550064C372 /* SupremeNowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028C437E25D46F540064C372 /* SupremeNow */ = {
+			isa = PBXGroup;
+			children = (
+				028C437F25D46F540064C372 /* AppDelegate.swift */,
+				028C438125D46F540064C372 /* SceneDelegate.swift */,
+				028C438325D46F540064C372 /* ViewController.swift */,
+				028C438525D46F540064C372 /* Main.storyboard */,
+				028C438B25D46F550064C372 /* Assets.xcassets */,
+				028C438D25D46F550064C372 /* LaunchScreen.storyboard */,
+				028C439025D46F550064C372 /* Info.plist */,
+				028C438825D46F540064C372 /* SupremeNow.xcdatamodeld */,
+			);
+			path = SupremeNow;
+			sourceTree = "<group>";
+		};
+		028C439825D46F550064C372 /* SupremeNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				028C439925D46F550064C372 /* SupremeNowTests.swift */,
+				028C439B25D46F550064C372 /* Info.plist */,
+			);
+			path = SupremeNowTests;
+			sourceTree = "<group>";
+		};
+		028C43A325D46F550064C372 /* SupremeNowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				028C43A425D46F550064C372 /* SupremeNowUITests.swift */,
+				028C43A625D46F550064C372 /* Info.plist */,
+			);
+			path = SupremeNowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028C437B25D46F540064C372 /* SupremeNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028C43A925D46F550064C372 /* Build configuration list for PBXNativeTarget "SupremeNow" */;
+			buildPhases = (
+				028C437825D46F540064C372 /* Sources */,
+				028C437925D46F540064C372 /* Frameworks */,
+				028C437A25D46F540064C372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SupremeNow;
+			productName = SupremeNow;
+			productReference = 028C437C25D46F540064C372 /* SupremeNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		028C439425D46F550064C372 /* SupremeNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028C43AC25D46F550064C372 /* Build configuration list for PBXNativeTarget "SupremeNowTests" */;
+			buildPhases = (
+				028C439125D46F550064C372 /* Sources */,
+				028C439225D46F550064C372 /* Frameworks */,
+				028C439325D46F550064C372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028C439725D46F550064C372 /* PBXTargetDependency */,
+			);
+			name = SupremeNowTests;
+			productName = SupremeNowTests;
+			productReference = 028C439525D46F550064C372 /* SupremeNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		028C439F25D46F550064C372 /* SupremeNowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028C43AF25D46F550064C372 /* Build configuration list for PBXNativeTarget "SupremeNowUITests" */;
+			buildPhases = (
+				028C439C25D46F550064C372 /* Sources */,
+				028C439D25D46F550064C372 /* Frameworks */,
+				028C439E25D46F550064C372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028C43A225D46F550064C372 /* PBXTargetDependency */,
+			);
+			name = SupremeNowUITests;
+			productName = SupremeNowUITests;
+			productReference = 028C43A025D46F550064C372 /* SupremeNowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028C437425D46F540064C372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					028C437B25D46F540064C372 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					028C439425D46F550064C372 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 028C437B25D46F540064C372;
+					};
+					028C439F25D46F550064C372 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 028C437B25D46F540064C372;
+					};
+				};
+			};
+			buildConfigurationList = 028C437725D46F540064C372 /* Build configuration list for PBXProject "SupremeNow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028C437325D46F540064C372;
+			productRefGroup = 028C437D25D46F540064C372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028C437B25D46F540064C372 /* SupremeNow */,
+				028C439425D46F550064C372 /* SupremeNowTests */,
+				028C439F25D46F550064C372 /* SupremeNowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028C437A25D46F540064C372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028C438F25D46F550064C372 /* LaunchScreen.storyboard in Resources */,
+				028C438C25D46F550064C372 /* Assets.xcassets in Resources */,
+				028C438725D46F540064C372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028C439325D46F550064C372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028C439E25D46F550064C372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028C437825D46F540064C372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028C438A25D46F540064C372 /* SupremeNow.xcdatamodeld in Sources */,
+				028C438425D46F540064C372 /* ViewController.swift in Sources */,
+				028C438025D46F540064C372 /* AppDelegate.swift in Sources */,
+				028C438225D46F540064C372 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028C439125D46F550064C372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028C439A25D46F550064C372 /* SupremeNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028C439C25D46F550064C372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028C43A525D46F550064C372 /* SupremeNowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		028C439725D46F550064C372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028C437B25D46F540064C372 /* SupremeNow */;
+			targetProxy = 028C439625D46F550064C372 /* PBXContainerItemProxy */;
+		};
+		028C43A225D46F550064C372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028C437B25D46F540064C372 /* SupremeNow */;
+			targetProxy = 028C43A125D46F550064C372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		028C438525D46F540064C372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028C438625D46F540064C372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		028C438D25D46F550064C372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028C438E25D46F550064C372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028C43A725D46F550064C372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		028C43A825D46F550064C372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028C43AA25D46F550064C372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL99T3M47W;
+				INFOPLIST_FILE = SupremeNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SupremeNow.SupremeNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		028C43AB25D46F550064C372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL99T3M47W;
+				INFOPLIST_FILE = SupremeNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SupremeNow.SupremeNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		028C43AD25D46F550064C372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL99T3M47W;
+				INFOPLIST_FILE = SupremeNowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SupremeNow.SupremeNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupremeNow.app/SupremeNow";
+			};
+			name = Debug;
+		};
+		028C43AE25D46F550064C372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL99T3M47W;
+				INFOPLIST_FILE = SupremeNowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SupremeNow.SupremeNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupremeNow.app/SupremeNow";
+			};
+			name = Release;
+		};
+		028C43B025D46F550064C372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL99T3M47W;
+				INFOPLIST_FILE = SupremeNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SupremeNow.SupremeNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupremeNow;
+			};
+			name = Debug;
+		};
+		028C43B125D46F550064C372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AL99T3M47W;
+				INFOPLIST_FILE = SupremeNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SupremeNow.SupremeNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupremeNow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028C437725D46F540064C372 /* Build configuration list for PBXProject "SupremeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028C43A725D46F550064C372 /* Debug */,
+				028C43A825D46F550064C372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028C43A925D46F550064C372 /* Build configuration list for PBXNativeTarget "SupremeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028C43AA25D46F550064C372 /* Debug */,
+				028C43AB25D46F550064C372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028C43AC25D46F550064C372 /* Build configuration list for PBXNativeTarget "SupremeNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028C43AD25D46F550064C372 /* Debug */,
+				028C43AE25D46F550064C372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028C43AF25D46F550064C372 /* Build configuration list for PBXNativeTarget "SupremeNowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028C43B025D46F550064C372 /* Debug */,
+				028C43B125D46F550064C372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		028C438825D46F540064C372 /* SupremeNow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				028C438925D46F540064C372 /* SupremeNow.xcdatamodel */,
+			);
+			currentVersion = 028C438925D46F540064C372 /* SupremeNow.xcdatamodel */;
+			path = SupremeNow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 028C437425D46F540064C372 /* Project object */;
+}
