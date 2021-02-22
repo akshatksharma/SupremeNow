@@ -12,6 +12,12 @@ class FeedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        fireBaseSetup()
+   
+        // Do any additional setup after loading the view.
+    }
+    
+    func fireBaseSetup() {
         let db = Firestore.firestore()
         let blah = db.collection("users").document("testID")
         blah.getDocument { (document, error) in
@@ -24,7 +30,6 @@ class FeedViewController: UIViewController {
                 print("Document does not exist")
             }
         }
-        // Do any additional setup after loading the view.
     }
     
 
