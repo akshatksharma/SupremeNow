@@ -30,6 +30,9 @@
 		02B7DCD325E410B900B5B656 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B7DCD125E410B900B5B656 /* Profile.storyboard */; };
 		02B7DCD425E410B900B5B656 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B7DCD125E410B900B5B656 /* Profile.storyboard */; };
 		02B7DCD525E410B900B5B656 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B7DCD125E410B900B5B656 /* Profile.storyboard */; };
+		02BF994625E445270097BFD9 /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF994525E445270097BFD9 /* CaseCell.swift */; };
+		02BF994725E445270097BFD9 /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF994525E445270097BFD9 /* CaseCell.swift */; };
+		02BF994825E445270097BFD9 /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF994525E445270097BFD9 /* CaseCell.swift */; };
 		093F6EA99289B33AB339CF7E /* Pods_SupremeNow_SupremeNowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5D5137BE45D717F31B3D09 /* Pods_SupremeNow_SupremeNowUITests.framework */; };
 		298F965E902ADCC8905B0B9E /* Pods_SupremeNowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E6640EBE9EE59439802491 /* Pods_SupremeNowTests.framework */; };
 		F349CCA825E1930300F475D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F349CCA725E1930300F475D0 /* GoogleService-Info.plist */; };
@@ -80,6 +83,7 @@
 		02B7DCC225E4106F00B5B656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Library.storyboard; sourceTree = "<group>"; };
 		02B7DCCA25E410A000B5B656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Analytics.storyboard; sourceTree = "<group>"; };
 		02B7DCD225E410B900B5B656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		02BF994525E445270097BFD9 /* CaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseCell.swift; sourceTree = "<group>"; };
 		06B239432B222786952CFC1D /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		11E7CE78B8D6693C25313B86 /* Pods_SupremeNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C1C29014B6C3016D5E37A9 /* Pods-SupremeNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				0261C8FC25E41FA400C34272 /* NewCasesCell.swift */,
+				02BF994525E445270097BFD9 /* CaseCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -513,6 +518,7 @@
 				028C438425D46F540064C372 /* ViewController.swift in Sources */,
 				0261C8FD25E41FA400C34272 /* NewCasesCell.swift in Sources */,
 				F349CCD225E1973F00F475D0 /* FeedViewController.swift in Sources */,
+				02BF994625E445270097BFD9 /* CaseCell.swift in Sources */,
 				028C438025D46F540064C372 /* AppDelegate.swift in Sources */,
 				028C438225D46F540064C372 /* SceneDelegate.swift in Sources */,
 			);
@@ -523,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F349CCD325E1973F00F475D0 /* FeedViewController.swift in Sources */,
+				02BF994725E445270097BFD9 /* CaseCell.swift in Sources */,
 				028C439A25D46F550064C372 /* SupremeNowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F349CCD425E1973F00F475D0 /* FeedViewController.swift in Sources */,
+				02BF994825E445270097BFD9 /* CaseCell.swift in Sources */,
 				028C43A525D46F550064C372 /* SupremeNowUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

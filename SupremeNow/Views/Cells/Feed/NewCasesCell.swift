@@ -9,7 +9,8 @@ import UIKit
 
 class NewCasesCell: UITableViewCell {
 
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet private weak var collectionView: UICollectionView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,6 +21,14 @@ class NewCasesCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    
+    func setCollectionViewDataSourceDelegate(dataSourceDelegate: UICollectionViewDataSource & UICollectionViewDelegate, forRow row: Int) {
+        collectionView.delegate = dataSourceDelegate
+        collectionView.dataSource = dataSourceDelegate
+        collectionView.tag = row
+        collectionView.reloadData()
     }
 
 }
