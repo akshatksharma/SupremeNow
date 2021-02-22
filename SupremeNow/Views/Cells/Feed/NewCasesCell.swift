@@ -9,6 +9,8 @@ import UIKit
 
 class NewCasesCell: UITableViewCell {
 
+    @IBOutlet weak var label: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
