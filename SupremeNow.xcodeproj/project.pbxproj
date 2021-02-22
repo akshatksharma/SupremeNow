@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0261C8FD25E41FA400C34272 /* NewCasesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261C8FC25E41FA400C34272 /* NewCasesCell.swift */; };
+		0261C90225E4209E00C34272 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0261C90125E4209E00C34272 /* .gitkeep */; };
 		028C438025D46F540064C372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C437F25D46F540064C372 /* AppDelegate.swift */; };
 		028C438225D46F540064C372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C438125D46F540064C372 /* SceneDelegate.swift */; };
 		028C438425D46F540064C372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C438325D46F540064C372 /* ViewController.swift */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0261C8FC25E41FA400C34272 /* NewCasesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCasesCell.swift; sourceTree = "<group>"; };
+		0261C90125E4209E00C34272 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		028C437C25D46F540064C372 /* SupremeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupremeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028C437F25D46F540064C372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		028C438125D46F540064C372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0261C8FA25E41D1B00C34272 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0261C8FB25E41D2300C34272 /* Feed */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0261C8FB25E41D2300C34272 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				0261C8FC25E41FA400C34272 /* NewCasesCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		028C437325D46F540064C372 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +210,7 @@
 		02B7DCA625E40E9F00B5B656 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0261C90125E4209E00C34272 /* .gitkeep */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,6 +218,7 @@
 		02B7DCA725E40EB700B5B656 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0261C8FA25E41D1B00C34272 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -344,6 +366,7 @@
 				02B7DCAE25E40FB600B5B656 /* Feed.storyboard in Resources */,
 				028C438F25D46F550064C372 /* LaunchScreen.storyboard in Resources */,
 				02B7DCD325E410B900B5B656 /* Profile.storyboard in Resources */,
+				0261C90225E4209E00C34272 /* .gitkeep in Resources */,
 				F349CCA825E1930300F475D0 /* GoogleService-Info.plist in Resources */,
 				028C438C25D46F550064C372 /* Assets.xcassets in Resources */,
 				02B7DCCB25E410A000B5B656 /* Analytics.storyboard in Resources */,
@@ -488,6 +511,7 @@
 			files = (
 				028C438A25D46F540064C372 /* SupremeNow.xcdatamodeld in Sources */,
 				028C438425D46F540064C372 /* ViewController.swift in Sources */,
+				0261C8FD25E41FA400C34272 /* NewCasesCell.swift in Sources */,
 				F349CCD225E1973F00F475D0 /* FeedViewController.swift in Sources */,
 				028C438025D46F540064C372 /* AppDelegate.swift in Sources */,
 				028C438225D46F540064C372 /* SceneDelegate.swift in Sources */,

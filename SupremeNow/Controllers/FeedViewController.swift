@@ -10,8 +10,19 @@ import FirebaseFirestore
 
 class FeedViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.delegate = self;
+        tableView.dataSource = self;
+   
+        testFireBase()
+        // Do any additional setup after loading the view.
+    }
+    
+    func testFireBase() {
         let db = Firestore.firestore()
         let blah = db.collection("users").document("testID")
         blah.getDocument { (document, error) in
@@ -24,7 +35,6 @@ class FeedViewController: UIViewController {
                 print("Document does not exist")
             }
         }
-        // Do any additional setup after loading the view.
     }
     
 
@@ -37,5 +47,32 @@ class FeedViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
+
+
+extension FeedViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "caseCell", for: indexPath) as? NewCasesCell {
+    
+            cell.label.text = "it works"
+            return cell
+        }
+        
+        return UITableViewCell()
+        
+        
+       
+    }
+    
+}
+
