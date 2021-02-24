@@ -80,15 +80,15 @@
 		02B7DCC225E4106F00B5B656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Library.storyboard; sourceTree = "<group>"; };
 		02B7DCCA25E410A000B5B656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Analytics.storyboard; sourceTree = "<group>"; };
 		02B7DCD225E410B900B5B656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
-		06B239432B222786952CFC1D /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		11E7CE78B8D6693C25313B86 /* Pods_SupremeNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14C1C29014B6C3016D5E37A9 /* Pods-SupremeNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.debug.xcconfig"; sourceTree = "<group>"; };
-		2BB26C5B5CCD0D8C482A14BA /* Pods-SupremeNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.release.xcconfig"; sourceTree = "<group>"; };
+		12FA5F1D73B957EE9FEB22EE /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E5D5137BE45D717F31B3D09 /* Pods_SupremeNow_SupremeNowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNow_SupremeNowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77AACF2257F429742F347B35 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9420AC21F10E5AD150FE526B /* Pods-SupremeNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNowTests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNowTests/Pods-SupremeNowTests.release.xcconfig"; sourceTree = "<group>"; };
-		9C0B1394AC7E071D75EDC71D /* Pods-SupremeNowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNowTests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNowTests/Pods-SupremeNowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		755D85908DDF000180A3B140 /* Pods-SupremeNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNowTests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNowTests/Pods-SupremeNowTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A105C5933F41915CDD9B44E /* Pods-SupremeNowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNowTests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNowTests/Pods-SupremeNowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B02596C7E03ED246835AE1C0 /* Pods-SupremeNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.debug.xcconfig"; sourceTree = "<group>"; };
 		B4E6640EBE9EE59439802491 /* Pods_SupremeNowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59F809BA12495DBDCA5232E /* Pods-SupremeNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.release.xcconfig"; sourceTree = "<group>"; };
+		EDB938A020DDD8059D610115 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F349CCA725E1930300F475D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F349CCD125E1973F00F475D0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,8 +144,8 @@
 				028C439825D46F550064C372 /* SupremeNowTests */,
 				028C43A325D46F550064C372 /* SupremeNowUITests */,
 				028C437D25D46F540064C372 /* Products */,
-				E3F74476D531EB0B842EEB88 /* Pods */,
 				C28E62460A859CF4CB76B215 /* Frameworks */,
+				499BA034BBFE60F7057CA984 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +232,20 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		499BA034BBFE60F7057CA984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02596C7E03ED246835AE1C0 /* Pods-SupremeNow.debug.xcconfig */,
+				C59F809BA12495DBDCA5232E /* Pods-SupremeNow.release.xcconfig */,
+				12FA5F1D73B957EE9FEB22EE /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */,
+				EDB938A020DDD8059D610115 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */,
+				9A105C5933F41915CDD9B44E /* Pods-SupremeNowTests.debug.xcconfig */,
+				755D85908DDF000180A3B140 /* Pods-SupremeNowTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C28E62460A859CF4CB76B215 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,19 +254,6 @@
 				B4E6640EBE9EE59439802491 /* Pods_SupremeNowTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E3F74476D531EB0B842EEB88 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				14C1C29014B6C3016D5E37A9 /* Pods-SupremeNow.debug.xcconfig */,
-				2BB26C5B5CCD0D8C482A14BA /* Pods-SupremeNow.release.xcconfig */,
-				06B239432B222786952CFC1D /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */,
-				77AACF2257F429742F347B35 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */,
-				9C0B1394AC7E071D75EDC71D /* Pods-SupremeNowTests.debug.xcconfig */,
-				9420AC21F10E5AD150FE526B /* Pods-SupremeNowTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -721,7 +722,7 @@
 		};
 		028C43AA25D46F550064C372 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14C1C29014B6C3016D5E37A9 /* Pods-SupremeNow.debug.xcconfig */;
+			baseConfigurationReference = B02596C7E03ED246835AE1C0 /* Pods-SupremeNow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -741,7 +742,7 @@
 		};
 		028C43AB25D46F550064C372 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BB26C5B5CCD0D8C482A14BA /* Pods-SupremeNow.release.xcconfig */;
+			baseConfigurationReference = C59F809BA12495DBDCA5232E /* Pods-SupremeNow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -761,7 +762,7 @@
 		};
 		028C43AD25D46F550064C372 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C0B1394AC7E071D75EDC71D /* Pods-SupremeNowTests.debug.xcconfig */;
+			baseConfigurationReference = 9A105C5933F41915CDD9B44E /* Pods-SupremeNowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -784,7 +785,7 @@
 		};
 		028C43AE25D46F550064C372 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9420AC21F10E5AD150FE526B /* Pods-SupremeNowTests.release.xcconfig */;
+			baseConfigurationReference = 755D85908DDF000180A3B140 /* Pods-SupremeNowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -807,7 +808,7 @@
 		};
 		028C43B025D46F550064C372 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06B239432B222786952CFC1D /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */;
+			baseConfigurationReference = 12FA5F1D73B957EE9FEB22EE /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -828,7 +829,7 @@
 		};
 		028C43B125D46F550064C372 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77AACF2257F429742F347B35 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */;
+			baseConfigurationReference = EDB938A020DDD8059D610115 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
