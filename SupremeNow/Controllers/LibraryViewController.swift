@@ -47,6 +47,13 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
         let configuration = UISwipeActionsConfiguration(actions: [favorite])
         return configuration
     }
+    
+    //on the click of a favorites view we want to push a new view controller that shows details about the case
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let selectedCase = (tableView, cellForRowAt: 0)
+        
+        
+    }
         
     override func viewWillAppear(_ animated: Bool) {
         arrayOfFavorites = UserDefaults.standard.stringArray(forKey: "myArray") ?? []
