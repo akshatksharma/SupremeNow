@@ -50,8 +50,11 @@ class LibraryViewController: UIViewController,UITableViewDataSource, UITableView
     
     //on the click of a favorites view we want to push a new view controller that shows details about the case
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("clicked for details")
 //        let selectedCase = (tableView, cellForRowAt: 0)
-        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "DetailView", bundle:nil)
+        let detailViewController = storyBoard.instantiateViewController(withIdentifier: "DetailView") as! DetailViewController
+        self.present(detailViewController, animated:true, completion:nil)
         
     }
         

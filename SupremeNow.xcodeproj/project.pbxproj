@@ -34,6 +34,7 @@
 		298F965E902ADCC8905B0B9E /* Pods_SupremeNowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E6640EBE9EE59439802491 /* Pods_SupremeNowTests.framework */; };
 		418DCA3825E6EB57000B877F /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DCA3725E6EB57000B877F /* LibraryViewController.swift */; };
 		418DCA3D25E71EB7000B877F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DCA3C25E71EB6000B877F /* DetailViewController.swift */; };
+		418DCA4225E71FA7000B877F /* DetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418DCA4125E71FA7000B877F /* DetailView.storyboard */; };
 		F349CCA825E1930300F475D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F349CCA725E1930300F475D0 /* GoogleService-Info.plist */; };
 		F349CCA925E1930300F475D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F349CCA725E1930300F475D0 /* GoogleService-Info.plist */; };
 		F349CCAA25E1930300F475D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F349CCA725E1930300F475D0 /* GoogleService-Info.plist */; };
@@ -89,6 +90,7 @@
 		39058220623DE259B757CFF0 /* Pods-SupremeNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNowTests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNowTests/Pods-SupremeNowTests.release.xcconfig"; sourceTree = "<group>"; };
 		418DCA3725E6EB57000B877F /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		418DCA3C25E71EB6000B877F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		418DCA4125E71FA7000B877F /* DetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailView.storyboard; sourceTree = "<group>"; };
 		7B82A25E3EEE5B11ADDCEDBE /* Pods-SupremeNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.debug.xcconfig"; sourceTree = "<group>"; };
 		7BE826E9A8883111D66CF7FF /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E41120588CA5C1A1765521D /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				02B7DCAC25E40FB600B5B656 /* Feed.storyboard */,
 				028C438525D46F540064C372 /* Main.storyboard */,
 				028C438D25D46F550064C372 /* LaunchScreen.storyboard */,
+				418DCA4125E71FA7000B877F /* DetailView.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				02B7DCCB25E410A000B5B656 /* Analytics.storyboard in Resources */,
 				02B7DCC325E4106F00B5B656 /* Library.storyboard in Resources */,
 				028C438725D46F540064C372 /* Main.storyboard in Resources */,
+				418DCA4225E71FA7000B877F /* DetailView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
