@@ -15,11 +15,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        print("Loading up app")
+        let userdefaults = UserDefaults.standard
+        userdefaults.removeObject(forKey: "characteristics")
+        if let savedValue = userdefaults.array(forKey: "characteristics"){
+            print("Here you will get saved value")
+            print(savedValue)
+        } else {
+           print("No value in Userdefault, do magic")
+           userdefaults.set(["personal","info"], forKey: "characteristics")
+        }
+        if let uuid = UIDevice.current.identifierForVendor?.uuidString {
+            print(uuid)
+        }
         return true
     }
-
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
