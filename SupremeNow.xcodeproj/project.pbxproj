@@ -36,6 +36,11 @@
 		8EF51E9F6764163C55406067 /* Pods_SupremeNow_SupremeNowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD36F1B11914F2B12344029 /* Pods_SupremeNow_SupremeNowUITests.framework */; };
 		8FDD4468643B3F88D80A1CCA /* Pods_SupremeNowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0485503440DFE88D6DA722E /* Pods_SupremeNowTests.framework */; };
 		AAFDD8F7A2533DA6AC2A04CE /* Pods_SupremeNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3477869CF49E75055EE58682 /* Pods_SupremeNow.framework */; };
+		02BF994625E445270097BFD9 /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF994525E445270097BFD9 /* CaseCell.swift */; };
+		02BF994725E445270097BFD9 /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF994525E445270097BFD9 /* CaseCell.swift */; };
+		02BF994825E445270097BFD9 /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF994525E445270097BFD9 /* CaseCell.swift */; };
+		093F6EA99289B33AB339CF7E /* Pods_SupremeNow_SupremeNowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5D5137BE45D717F31B3D09 /* Pods_SupremeNow_SupremeNowUITests.framework */; };
+		298F965E902ADCC8905B0B9E /* Pods_SupremeNowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E6640EBE9EE59439802491 /* Pods_SupremeNowTests.framework */; };
 		F349CCA825E1930300F475D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F349CCA725E1930300F475D0 /* GoogleService-Info.plist */; };
 		F349CCA925E1930300F475D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F349CCA725E1930300F475D0 /* GoogleService-Info.plist */; };
 		F349CCAA25E1930300F475D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F349CCA725E1930300F475D0 /* GoogleService-Info.plist */; };
@@ -95,6 +100,16 @@
 		D0485503440DFE88D6DA722E /* Pods_SupremeNowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18CF9D113E8454CE4F33478 /* Pods-SupremeNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.release.xcconfig"; sourceTree = "<group>"; };
 		E321B4C007C0609188D03B12 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		02BF994525E445270097BFD9 /* CaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseCell.swift; sourceTree = "<group>"; };
+		06B239432B222786952CFC1D /* Pods-SupremeNow-SupremeNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11E7CE78B8D6693C25313B86 /* Pods_SupremeNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C1C29014B6C3016D5E37A9 /* Pods-SupremeNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.debug.xcconfig"; sourceTree = "<group>"; };
+		2BB26C5B5CCD0D8C482A14BA /* Pods-SupremeNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow/Pods-SupremeNow.release.xcconfig"; sourceTree = "<group>"; };
+		2E5D5137BE45D717F31B3D09 /* Pods_SupremeNow_SupremeNowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNow_SupremeNowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AACF2257F429742F347B35 /* Pods-SupremeNow-SupremeNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNow-SupremeNowUITests/Pods-SupremeNow-SupremeNowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9420AC21F10E5AD150FE526B /* Pods-SupremeNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNowTests.release.xcconfig"; path = "Target Support Files/Pods-SupremeNowTests/Pods-SupremeNowTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C0B1394AC7E071D75EDC71D /* Pods-SupremeNowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremeNowTests.debug.xcconfig"; path = "Target Support Files/Pods-SupremeNowTests/Pods-SupremeNowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E6640EBE9EE59439802491 /* Pods_SupremeNowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremeNowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F349CCA725E1930300F475D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F349CCD125E1973F00F475D0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				0261C8FC25E41FA400C34272 /* NewCasesCell.swift */,
+				02BF994525E445270097BFD9 /* CaseCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -524,6 +540,7 @@
 				0261C8FD25E41FA400C34272 /* NewCasesCell.swift in Sources */,
 				F349CCD225E1973F00F475D0 /* FeedViewController.swift in Sources */,
 				418DCA3825E6EB57000B877F /* LibraryViewController.swift in Sources */,
+				02BF994625E445270097BFD9 /* CaseCell.swift in Sources */,
 				028C438025D46F540064C372 /* AppDelegate.swift in Sources */,
 				028C438225D46F540064C372 /* SceneDelegate.swift in Sources */,
 				418DCA3D25E71EB7000B877F /* DetailViewController.swift in Sources */,
@@ -535,6 +552,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F349CCD325E1973F00F475D0 /* FeedViewController.swift in Sources */,
+				02BF994725E445270097BFD9 /* CaseCell.swift in Sources */,
 				028C439A25D46F550064C372 /* SupremeNowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,6 +562,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F349CCD425E1973F00F475D0 /* FeedViewController.swift in Sources */,
+				02BF994825E445270097BFD9 /* CaseCell.swift in Sources */,
 				028C43A525D46F550064C372 /* SupremeNowUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

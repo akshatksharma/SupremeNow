@@ -9,8 +9,12 @@ import UIKit
 import FirebaseFirestore
 
 class FeedViewController: UIViewController {
-
     @IBOutlet weak var tableView: UITableView!
+    
+    let content = [
+        ["title": "Google vs Oracle", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."],
+        ["title": "Carney v. Adams", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +23,6 @@ class FeedViewController: UIViewController {
         tableView.dataSource = self;
    
         testFireBase()
-        // Do any additional setup after loading the view.
     }
     
     func testFireBase() {
@@ -28,7 +31,6 @@ class FeedViewController: UIViewController {
         blah.getDocument { (document, error) in
             if let document = document, document.exists {
                // let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
-                
                 let userInfo = document.data()!["info"]! as? String ?? "None"
                 print(userInfo)
             }else {
@@ -52,27 +54,46 @@ class FeedViewController: UIViewController {
 
 extension FeedViewController: UITableViewDelegate, UITableViewDataSource {
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 2
-    }
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int { 1 }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        1
-    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { 1 }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "caseCell", for: indexPath) as? NewCasesCell {
-    
-            cell.label.text = "it works"
-            return cell
-        }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "caseCell", for: indexPath) as? NewCasesCell else { return UITableViewCell() }
         
-        return UITableViewCell()
+        cell.setCollectionViewDataSourceDelegate(dataSourceDelegate: self, forRow: indexPath.row)
         
+        return cell
         
-       
     }
+    
+}
+
+extension FeedViewController : UICollectionViewDataSource, UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return content.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        print(content[indexPath.item])
+        
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "NewCaseCollectionCell", for: indexPath) as? CaseCell else {
+            
+            print("failed")
+            return UICollectionViewCell() }
+        
+        
+        
+        
+        cell.titleText.text = content[indexPath.item]["title"]
+        cell.descriptionText.text = content[indexPath.item]["description"]
+        
+        
+        return cell
+    }
+    
     
 }
 
