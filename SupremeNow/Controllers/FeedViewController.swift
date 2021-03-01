@@ -11,9 +11,13 @@ import FirebaseFirestore
 class FeedViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    let content = [
+    let newCaseContent = [
         ["title": "Google vs Oracle", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."],
         ["title": "Carney v. Adams", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    ]
+    
+    let topNewsContent = [
+        ["title": "Landmark Supreme Court Ruling Against Texas", "case": "California v. Texas"]
     ]
     
     override func viewDidLoad() {
@@ -54,9 +58,24 @@ class FeedViewController: UIViewController {
 
 extension FeedViewController: UITableViewDelegate, UITableViewDataSource {
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int { 1 }
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int { 2 }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { 1 }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        var numRows:Int;
+        
+        switch section {
+        case 1:
+            numRows = 1
+        case 2:
+            numRows = topNewsContent.count
+        default:
+            numRows = 1
+        }
+        
+        return numRows;
+        
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -70,14 +89,14 @@ extension FeedViewController: UITableViewDelegate, UITableViewDataSource {
     
 }
 
-extension FeedViewController : UICollectionViewDataSource, UICollectionViewDelegate {
+extension FeedViewController : UICollectionViewDelegate, UICollectionViewDataSource  {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return content.count
+        return newCaseContent.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        print(content[indexPath.item])
+        print(newCaseContent[indexPath.item])
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "NewCaseCollectionCell", for: indexPath) as? CaseCell else {
             
@@ -87,8 +106,8 @@ extension FeedViewController : UICollectionViewDataSource, UICollectionViewDeleg
         
         
         
-        cell.titleText.text = content[indexPath.item]["title"]
-        cell.descriptionText.text = content[indexPath.item]["description"]
+        cell.titleText.text = newCaseContent[indexPath.item]["title"]
+        cell.descriptionText.text = newCaseContent[indexPath.item]["description"]
         
         
         return cell
